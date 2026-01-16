@@ -1,0 +1,53 @@
+### Criar Usuário Prestador (Barbeiro/Médico)
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "name": "João Prestador",
+  "email": "joao@barbearia.com",
+  "role": "PROVIDER"
+}
+
+### Criar Usuário Cliente
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "name": "Kamilly Cliente",
+  "email": "kamilly@email.com",
+  "role": "CLIENT"
+}
+
+### Criar Agendamento
+POST http://localhost:3333/appointments
+Content-Type: application/json
+
+{
+  "startsAt": "2026-02-10T14:00:00Z",
+  "endsAt": "2026-02-10T15:00:00Z",
+  "clientId": "1397e2b3-9a03-498f-9a97-875e209dfeb8",
+  "providerId": "66402c41-b385-4b2e-964f-5be617b20019"
+}
+
+###
+POST http://localhost:3333/appointments
+Content-Type: application/json
+
+{
+"startsAt": "2026-02-10T14:00:00Z",
+"endsAt": "2026-02-10T15:00:00Z",
+"clientId": "1397e2b3-9a03-498f-9a97-875e209dfeb8",
+"providerId": "66402c41-b385-4b2e-964f-5be617b20019"
+}
+
+###
+
+POST http://localhost:3333/appointments
+Content-Type: application/json
+
+{
+  "startsAt": "2026-02-10T14:30:00Z",
+  "endsAt": "2026-02-10T15:30:00Z",
+  "clientId": "1397e2b3-9a03-498f-9a97-875e209dfeb8",
+  "providerId": "66402c41-b385-4b2e-964f-5be617b20019"
+}
