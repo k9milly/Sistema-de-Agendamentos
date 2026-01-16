@@ -1,14 +1,23 @@
 # 📅 Sistema de Agendamentos
 
-Projeto desenvolvido para gerenciamento de agendamentos, utilizando tecnologias modernas de desenvolvimento web.
+Sistema full-stack para gerenciamento de clientes e horários, construído com foco em performance e integridade de dados.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias
 
-* **Node.js** - Ambiente de execução Javascript.
-* **TypeScript** - Linguagem de programação.
-* **Prisma** - ORM para comunicação com o banco de dados.
-* **SQLite** - Banco de dados local (pode ser alterado no .env).
+### **Frontend**
+* **React 19** com **Vite** (TypeScript)
+* **Tailwind CSS v4** (Estilização moderna e rápida)
+* **Lucide React** (Pacote de ícones)
 
+### **Backend**
+* **Node.js** com **Fastify** (Framework ultra veloz)
+* **Prisma ORM** (Modelagem e comunicação com o banco)
+* **TypeScript** (Segurança e tipagem)
+
+### **Banco de Dados**
+* **PostgreSQL** (Rodando via Docker)
+
+---
 ## 🛠️ Como rodar o projeto
 
 1. **Clone o repositório:**
