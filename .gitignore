@@ -10,6 +10,9 @@ yarn-error.log*
 .env
 .idea/
 dist/
+# Banco de dados local (SQLite)
+*.db
+*.db-journal
 
 .vscode/*
 /src/generated/prisma
